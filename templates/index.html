@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Genzai</title>
+  <!--<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>-->
+
+      <!-- <link rel="stylesheet" href="css/style.css"> -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+</head>
+
+<body>
+<script src="https://www.amcharts.com/lib/3/ammap.js"></script>
+<script src="https://www.amcharts.com/lib/3/maps/js/usaLow.js"></script>
+<script src="https://www.amcharts.com/lib/3/themes/light.js"></script>
+
+<div class="top">
+  <img src="logo.png">
+</div>
+<div id="map">
+
+<div class="side">
+<div id="tempInfo"></div>
+<div id="about">
+  <p>
+    Welcome to the Genzai Dashboard!
+    <br/>
+      <br/>
+    This project provides a fast, simple, easy to use, analytics tool in which
+    you can understand the way the world tweets, the way the world feels.
+
+  </p>
+  <p>
+    It is our belief that in this modern age, where an average of over
+    6,000 tweets are sent out per second, that Twitter's trending topics
+     can provide an acurate depiction of the emotions and events of the world.
+  </p>
+
+</div>
+</div>
+
+<div <class="main" id="chartdiv"></div>
+</div>
+
+
+<div id="info" style="display: none"></div>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+
+    <!-- <link>url_for('static', filename='js/index.js')</link> -->
+    <script type = "application/javascript" src="{{ url_for('static', filename='js/index.js') }}"></script>
+
+<!-- <iframe src="google.com" width="200" height="200"></iframe> -->
+<!-- <iframe src="http://localhost:5000/index" width="1728" height="1900"></iframe> -->
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Event Page 2.0</title>
+
+
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+
+      <!-- <link rel="stylesheet" href="css/style.css"> -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+</head>
+<head>
+
+</head>
+<body>
+<iframe src = "index.html" width="200" height="200"></iframe>
+<div id="chartdiv"></div>
+<div id="tempInfo">Waiting...</div>
+<div id="info" style="display: none"></div>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+
+    <!-- <link>url_for('static', filename='js/index.js')</link> -->
+    <script type = "application/javascript" src="{{ url_for('static', filename='js/index.js') }}"></script>
+  <iframe src="http://localhost:5000/index" width="1728" height="1900"></iframe>
+<!--  fdsafdafdsafdf-->
+</body>
+</html>
