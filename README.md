@@ -1,5 +1,5 @@
 ![Genzai](static/css/logo.png)
-
+# Every aspect of this project was completed under 36 hours as a part of  a Hackathon at Vanderbilt University in October of 2017. 
 # Inspiration
 Genzai is a Japanese word for current. The reason why we chose to pursue this project is that we believe there is much to learn from the so-called social world. Today more than ever social media governs the way we live our lives there are about 6,000 tweets a second, billions of tweets are posted every year. All that data, all that information, if we could visualize the highlights and make them easier to understand we could provide insights to business, marketing teams, and social spaces.
 
